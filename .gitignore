@@ -1,0 +1,28 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Environments
+.venv
+.env
+venv/
+venv.bak/
+
+# Pyre type checker
+.idea
+.idea/
+
+
+#local settings
+local.py
+lputormis/local.py
+# Docker
+docker-compose.yml
+
+#Celery
+celerybeat-schedule.bak
+celerybeat-schedule.dat
+celerybeat-schedule.dir

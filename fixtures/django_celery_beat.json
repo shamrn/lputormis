@@ -1,0 +1,45 @@
+[
+ {
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 1,
+    "fields": {
+      "every": 15,
+      "period": "minutes"
+    }
+  },
+  {
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+      "last_update": "2021-08-20T09:55:50.308Z"
+    }
+  },
+  {
+    "model": "django_celery_beat.periodictask",
+    "pk": 1,
+    "fields": {
+      "name": "Выгрузка в ИСМЛП рецептов на молочное питание",
+      "task": "api.tasks.tasks_send_recipes",
+      "interval": 1,
+      "crontab": null,
+      "solar": null,
+      "clocked": null,
+      "args": "[]",
+      "kwargs": "{\"db_name\":\"name_db\",\"unload_rid\":84}",
+      "queue": null,
+      "exchange": null,
+      "routing_key": null,
+      "headers": "{}",
+      "priority": null,
+      "expires": null,
+      "expire_seconds": null,
+      "one_off": false,
+      "start_time": null,
+      "enabled": true,
+      "last_run_at": null,
+      "total_run_count": 0,
+      "date_changed": "2021-08-20T09:55:50.312Z",
+      "description": ""
+    }
+  }
+]
